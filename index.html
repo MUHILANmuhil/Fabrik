@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>List</title>
+</head>
+<body id="body">
+    <div class="nav">
+        <div class="mnubtn bts">
+            <button id="menu-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </button>
+        </div>
+        <div class="search_bar bts">
+            <input type="text" class="srhbox" placeholder="Search...">
+            <button id="search-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+            </button>
+        </div>
+        <div class="btns bts">
+            <button id="queue-btn">
+                <?xml version="1.0" ?>
+                <svg id="Lager_1" style="enable-background:new -265 388.9 64 64;" version="1.1" viewBox="-265 388.9 64 64" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g>
+                <path d="M-237.9,417.6h-16.5c-0.9,0-1.6-0.7-1.6-1.6v-16.5c0-0.9,0.7-1.6,1.6-1.6h16.4c0.9,0,1.6,0.7,1.6,1.6v16.4   C-236.3,416.9-237,417.6-237.9,417.6z"/><path d="M-211.6,417.6h-16.5c-0.9,0-1.6-0.7-1.6-1.6v-16.5c0-0.9,0.7-1.6,1.6-1.6h16.4c0.9,0,1.6,0.7,1.6,1.6v16.4   C-210,416.9-210.7,417.6-211.6,417.6z"/><path d="M-237.9,443.9h-16.5c-0.9,0-1.6-0.7-1.6-1.6v-16.5c0-0.9,0.7-1.6,1.6-1.6h16.4c0.9,0,1.6,0.7,1.6,1.6v16.4   C-236.3,443.2-237,443.9-237.9,443.9z"/><path d="M-211.6,443.9h-16.5c-0.9,0-1.6-0.7-1.6-1.6v-16.5c0-0.9,0.7-1.6,1.6-1.6h16.4c0.9,0,1.6,0.7,1.6,1.6v16.4   C-210,443.2-210.7,443.9-211.6,443.9z"/>
+                </g>
+            </svg></i>
+            </button>
+            <button id="list-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-view-list" viewBox="0 0 16 16">
+             <path d="M3 4.5h10a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1H3zM1 2a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 2zm0 12a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 14z"/>
+            </svg>
+            </button>
+        </div>
+        <div class="fcontainer">
+            <div class="fwrapper">
+               <div class="fcontent">
+                  <div class="text">
+                     No file chosen, yet!
+                  </div>
+               </div>
+               <div id="cancel-btn">
+                  <i class="fas fa-times"></i>
+               </div>
+               <div class="file-name">
+               </div>
+            </div>
+            <button onclick="defaultBtnActive()" id="custom-btn">Choose a file</button>
+            <input id="default-btn" type="file" hidden>
+         </div>   
+    </div>
+<div id="whole_container" class="list">
+    <div class='cntr'>
+            <div class='hldr'>
+                <a href="O1.html" target="_blank">
+                    <div  class='imtr'>
+                        <img src="I1.png" alt="">
+                    </div>
+                    <div class='ctnt'>
+                        <h2>Cheerios</h2>
+                    </div>
+                </a>
+            </div> 
+        <div  class='hldr'>
+            <a href="O2.html" target="_blank">
+                <div  class='imtr'>
+                    <img src="I2.png" alt="">
+                </div>
+                <div class='ctnt'>
+                    <h2>Swiss Muesli</h2>
+                </div>
+            </a>
+        </div>
+        <div  class='hldr'>
+            <a href="O3.html" target="_blank">
+                <div  class='imtr'>
+                    <img src="I3.png" alt="">
+                </div>
+                <div class='ctnt'>
+                    <h2>Softsilk</h2>
+                </div>
+            </a>
+        </div>
+        <div  class='hldr'>
+            <a href="O4.html" target="_blank">
+                <div  class='imtr'>
+                    <img src="I4.png" alt="">
+                </div>
+                <div class='ctnt'>
+                    <h2>Rice Roni</h2>
+                </div>
+            </a>
+        </div>
+        <div  class='hldr'>
+            <a href="O5.html" target="_blank">
+                <div  class='imtr'>
+                    <img src="I5.png" alt="">
+                </div>
+                <div class='ctnt'>
+                    <h2>FareFalle</h2>
+                </div>
+            </a>
+        </div>
+        <div  class='hldr'>
+            <a href="O6.html" target="_blank">
+                <div  class='imtr'>
+                    <img src="I6.png" alt="">
+                </div>
+                <div class='ctnt'>
+                    <h2>Minute</h2>
+                </div>
+            </a>
+        </div>
+        <div  class='hldr'>
+            <a href="O7.html" target="_blank">
+                <div  class='imtr'>
+                    <img src="I7.png" alt="">
+                </div>
+                <div class='ctnt'>
+                    <h2>Nature Valley</h2>
+                </div>
+            </a>
+        </div>
+        <div  class='hldr'>
+            <a href="O8.html" target="_blank">
+                <div  class='imtr'>
+                    <img src="I8.png" alt="">
+                </div>
+                <div class='ctnt'>
+                    <h2>K Special</h2>
+                </div>
+            </a>
+        </div>
+        <div  class='hldr'>
+            <a href="O9.html" target="_blank">
+                <div  class='imtr'>
+                    <img src="I9.png" alt="">
+                </div>
+                <div class='ctnt'>
+                    <h2>Earl Gery</h2>
+                </div>
+            </a>
+        </div>
+        <div  class='hldr'>
+            <a href="O10.html" target="_blank">
+                <div  class='imtr'>
+                    <img src="I10.png" alt="">
+                </div>
+                <div class='ctnt'>
+                    <h2>Muesli Fruit</h2>
+                </div>
+            </a>
+        </div>
+        <div  class='hldr'>
+            <a href="O11.html" target="_blank">
+                <div  class='imtr'>
+                    <img src="I11.png" alt="">
+                </div>
+                <div class='ctnt'>
+                    <h2>Corn flakes</h2>
+                </div>
+            </a>
+        </div>
+        <div  class='hldr'>
+            <a href="O12.html" target="_blank">
+                <div  class='imtr'>
+                    <img src="I12.png" alt="">
+                </div>
+                <div class='ctnt'>
+                    <h2>Muesli Nuts</h2>
+                </div>
+            </a>
+        </div>        
+    </div>  
+</div>
+</body>
+<script src="script.js"></script>
+<script>
+   
+ </script>
+
+</html>
